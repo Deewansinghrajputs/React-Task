@@ -1,0 +1,29 @@
+body{
+    background-color: #113d3a;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    min-height: 100vh;
+}
+.Jokeapp{
+    width: 400px;
+    min-height: 250px;
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding:12px;
+}
+.Jokeapp h1{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.Jokeapp button {
+    width: 100%;
+    padding: 5px;
+    background-color:#113d3a ;
+    color: #fff;
+    cursor: pointer;
+
+}
+.Jokeapp button:hover{
+    background-color: green;
+}
